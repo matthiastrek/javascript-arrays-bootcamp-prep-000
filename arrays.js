@@ -1,4 +1,8 @@
-function addElementToBeginningOfArray(Array, x){
+function addElementToBeginningOfArray(list, x){
+  list = [x, 'j', 'k']
+  return list
 }
 
-function destructivelyAddElementToBeginningOfArray()
+function destructivelyAddElementToBeginningOfArray(){
+  
+}
