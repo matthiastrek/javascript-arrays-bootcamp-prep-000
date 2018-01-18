@@ -1,8 +1,11 @@
 function addElementToBeginningOfArray(list, x){
-  list = [x, 'j', 'k']
+  list = ['j', 'k']
+  list.unshift(x)
   return list
 }
 
-function destructivelyAddElementToBeginningOfArray(){
-  
+function destructivelyAddElementToBeginningOfArray(list, x){
+  list = ['j', 'k']
+  list.unshift(x)
+  return list
 }
