@@ -20,3 +20,8 @@ function destructivelyAddElementToBeginningOfArray(list, x){
   list.push(x)
   return list
 }
+
+function accessElementInArray (list, x) {
+  list = [] 
+  return list[x]
+}
