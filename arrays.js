@@ -10,3 +10,13 @@ function destructivelyAddElementToBeginningOfArray(list, x){
   list.unshift(x)
   return list
 }
+
+function addElementToEndOfArray(list, x){
+  return
+}
+
+function destructivelyAddElementToBeginningOfArray(list, x){
+  list = ['j', 'k']
+  list.push(x)
+  return list
+}
