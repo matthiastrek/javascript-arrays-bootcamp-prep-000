@@ -21,6 +21,12 @@ function destructivelyAddElementToBeginningOfArray(list, x){
   return list
 }
 
-function accessElementInArray ([list], x) {
+function accessElementInArray (list, x) {
+  list = ['j','k']
   return list[x]
+}
+
+function destructivelyAddElementToBeginningOfArray(list){
+  
+  return
 }
