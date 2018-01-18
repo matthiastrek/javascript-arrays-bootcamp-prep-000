@@ -27,6 +27,6 @@ function accessElementInArray (list, x) {
 }
 
 function destructivelyAddElementToBeginningOfArray(list){
-  
+  list = [1, 2]
   return
 }
