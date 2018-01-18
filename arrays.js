@@ -6,17 +6,16 @@ function addElementToBeginningOfArray(list, x){
 }
 
 function destructivelyAddElementToBeginningOfArray(list, x){
-  list = ['j', 'k']
   list.unshift(x)
   return list
 }
 
 function addElementToEndOfArray(list, x){
-  return
+  newList = [...list, x]
+  return newList
 }
 
 function destructivelyAddElementToBeginningOfArray(list, x){
-  list = ['j', 'k']
   list.push(x)
   return list
 }
@@ -31,6 +30,11 @@ function destructivelyRemoveElementFromBeginningOfArray(list){
 }
 
 function RemoveElementFromBeginningOfArray(list){
-  list.shift()
+  newList = list.slice(1)
+  return newList
+}
+
+function destructivelyRemoveElementFromEndOfArray(list){
+  list.pop()
   return list
 }
