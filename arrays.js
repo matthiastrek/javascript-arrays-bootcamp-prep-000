@@ -25,7 +25,7 @@ function accessElementInArray (list, x) {
   return list[x]
 }
 
-function destructivelyAddElementToBeginningOfArray(list){
-  list.unshift()
+function destructivelyRemoveElementFromBeginningOfArray(list){
+  list.shift()
   return list
 }
