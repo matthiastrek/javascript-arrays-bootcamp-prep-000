@@ -29,7 +29,7 @@ function destructivelyRemoveElementFromBeginningOfArray(list){
   return list
 }
 
-function RemoveElementFromBeginningOfArray(list){
+function removeElementFromBeginningOfArray(list){
   newList = list.slice(1)
   return newList
 }
@@ -39,7 +39,7 @@ function destructivelyRemoveElementFromEndOfArray(list){
   return list
 }
 
-function RemoveElementFromEndOfArray(list){
+function removeElementFromEndOfArray(list){
   newList = list.slice(0, list.length - 1)
   return newList
 }
