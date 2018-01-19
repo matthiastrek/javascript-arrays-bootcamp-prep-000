@@ -15,7 +15,7 @@ function addElementToEndOfArray(list, x){
   return newList
 }
 
-function destructivelyAddElementToBeginningOfArray(list, x){
+function destructivelyAddElementToEndOfArray(list, x){
   list.push(x)
   return list
 }
